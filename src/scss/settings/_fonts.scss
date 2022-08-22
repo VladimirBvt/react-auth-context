@@ -1,0 +1,17 @@
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@include font_face(
+	'Inter',
+	'Inter-Regular',
+	400,
+	'normal',
+	'../../assets/fonts/Inter'
+);
+
+@include font_face(
+	'Inter',
+	'Inter-Bold',
+	700,
+	'normal',
+	'../../assets/fonts/Inter'
+);

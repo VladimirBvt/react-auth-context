@@ -1,0 +1,28 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: $height_header_xs;
+	background: #00a4db;
+	border-bottom: 2px solid currentColor;
+
+	&__wrapper {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 15px;
+	}
+
+	&__logo, &__logout {
+		height: 30px;
+		width: 30px;
+
+		svg {
+			height: 100%;
+			width: 100%;
+			fill: #fff;
+		}
+	}
+}
